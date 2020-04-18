@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "DownloadDocument";
+}
+
+<h2>DownloadDocument</h2>
+
+<ul>
+    @foreach (var document in Model)
+    {
+        <li><a href="/Home/DownloadDocument?document=@document">Download @document</a></li>
+    }
+</ul>

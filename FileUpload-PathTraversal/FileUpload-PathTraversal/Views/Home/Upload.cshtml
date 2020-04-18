@@ -1,0 +1,12 @@
+﻿<h2>Basic PDF File Upload</h2>
+@using (Html.BeginForm("Upload",
+                        "Home",
+                        FormMethod.Post,
+                        new { enctype = "multipart/form-data" }))
+{
+    <label for="file">Upload Image:</label>
+    <input type="file" name="file" id="file" /><br><br>
+    <input type="submit" value="Upload Pdf" />
+    <br><br>
+    @ViewBag.Message
+}

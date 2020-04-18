@@ -1,0 +1,38 @@
+﻿@model SQLInjection.Models.SearchByID
+
+@{
+    ViewBag.Title = "ViewProduct";
+}
+
+<h2>ViewProduct</h2>
+
+@using (Html.BeginForm()){
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <p>
+            Please enter Product Id you would like to search:
+        </p>
+
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            <div class="col-md-4">
+               @Html.TextBoxFor(model => model.Id)
+               @Html.ValidationMessageFor(model => model.Id)
+            </div>
+            <div class="col-md-1">
+                <input type="submit" name="BtnSearch" value="Search" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+@{
+    if (Model.Details != null)
+    {
+        Html.RenderPartial("~/Views/ViewProductPartial.cshtml", Model.Details);
+
+    }
+}
+
+

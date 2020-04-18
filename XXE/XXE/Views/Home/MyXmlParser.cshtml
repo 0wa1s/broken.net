@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "MyXmlParser";
+}
+
+<h2>MyXmlParser</h2>
+<html>
+<body>
+    <h3>Can you guess the Magic word ?</h3>
+    <form>
+        <label for="data">Data:</label>
+        <input type="text" name="data" id="data" /><br><br>
+        
+        <input type='button' class='btn btn-fill btn-success btn-wd' name='next' value='login' onclick="javascript:doPost()" />
+    </form>
+    <br><br>
+
+    </div>
+</body>
+</html>
+
+<script type='text/javascript'>
+
+function doPost(){
+	var userinput = $("#data").val();
+	
+        if (userinput == "")
+        {
+            alert("Input cannot be blank");
+            return;
+		}
+
+        var data = "<process><userinput>" + userinput +  "</userinput></process>";
+    $.ajax({
+        type: "POST",
+        url: '@Url.Action("doPost", "Home")',
+        contentType: "application/xml;charset=utf-8",
+        data: data,
+        dataType: "xml",
+        anysc: false,
+        success: function (result) {
+            var is_correct = result.getElementsByTagName("iscorrect")[0].childNodes[0].nodeValue;
+            //alert(code); 
+            if (is_correct == "1"){
+                alert("Congrats! You Guessed the Magic Word");
+        	}else {
+                alert("Sorry! Try again");
+        	}
+        },
+        error: function (XMLHttpRequest,textStatus,errorThrown) {
+            alert("Something went wrong!");
+        }
+    });
+}
+</script>

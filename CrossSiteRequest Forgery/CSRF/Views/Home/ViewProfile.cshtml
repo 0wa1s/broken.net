@@ -1,0 +1,22 @@
+﻿@model CrossSiteScripting.Models.StudentModel
+
+@{
+    ViewBag.Title = "ViewProfile";
+}
+
+<h2>ViewProfile</h2>
+
+
+
+<p>
+    <!-- Unsafe Use-->
+    <strong>Name Vulnerable</strong> :@Html.Raw(ViewData["Name"])<br />
+    <!-- safe methods -->
+    <strong>Name</strong> :@Html.ViewData["Name"]<br />
+    <strong>City</strong> : @ViewData["City"]<br />
+    <strong>Address</strong> : @ViewData["Address"]<br />
+    @Html.ActionLink("Back to List", "Index")
+</p>
+<!--using unsanitized data in html attribute context with request validation enabled-->
+<href link="xyz.net" alt="@Html.Raw(ViewData["City"])">TEST1</href><br />
+<href link="xyz.net" alt="@(new HtmlString(ViewData["City"].ToString()))">TEST2</href>

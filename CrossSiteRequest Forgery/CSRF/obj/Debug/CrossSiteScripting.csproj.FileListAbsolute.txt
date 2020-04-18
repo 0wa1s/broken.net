@@ -1,0 +1,112 @@
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\obj\Debug\CrossSiteScripting.csprojAssemblyReference.cache
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\obj\Debug\CrossSiteScripting.csproj.CoreCompileInputs.cache
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\CrossSiteScripting.dll.config
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\CrossSiteScripting.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\CrossSiteScripting.pdb
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\csc.exe
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\csc.exe.config
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\csc.rsp
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\csi.exe
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\csi.rsp
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\System.AppContext.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\vbc.exe
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\vbc.exe.config
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\vbc.rsp
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\VBCSCompiler.exe
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\Antlr3.Runtime.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\Newtonsoft.Json.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\System.Web.Helpers.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\System.Web.Mvc.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\System.Web.Optimization.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\System.Web.Razor.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\System.Web.WebPages.Deployment.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\System.Web.WebPages.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\System.Web.WebPages.Razor.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\WebGrease.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\System.Web.Helpers.xml
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\System.Web.Mvc.xml
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\System.Web.Optimization.xml
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\System.Web.Razor.xml
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\System.Web.WebPages.xml
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\System.Web.WebPages.Deployment.xml
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\System.Web.WebPages.Razor.xml
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\Newtonsoft.Json.xml
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\Antlr3.Runtime.pdb
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\obj\Debug\CrossSiteScripting.csproj.CopyComplete
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\obj\Debug\CrossSiteScripting.dll
+C:\Users\owais\source\repos\CrossSiteScripting\CrossSiteScripting\obj\Debug\CrossSiteScripting.pdb
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\CrossSiteScripting.dll.config
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\CrossSiteScripting.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\CrossSiteScripting.pdb
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\csc.exe
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\csc.exe.config
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\csc.rsp
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\csi.exe
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\csi.rsp
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\System.AppContext.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\vbc.exe
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\vbc.exe.config
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\vbc.rsp
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\VBCSCompiler.exe
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\Antlr3.Runtime.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\Newtonsoft.Json.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\System.Web.Helpers.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\System.Web.Mvc.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\System.Web.Optimization.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\System.Web.Razor.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\System.Web.WebPages.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\WebGrease.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\System.Web.Helpers.xml
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\System.Web.Mvc.xml
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\System.Web.Optimization.xml
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\System.Web.Razor.xml
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\System.Web.WebPages.xml
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\Newtonsoft.Json.xml
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\Antlr3.Runtime.pdb
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\obj\Debug\CrossSiteScripting.csprojAssemblyReference.cache
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\obj\Debug\CrossSiteScripting.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\obj\Debug\CrossSiteScripting.csproj.CopyComplete
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\obj\Debug\CrossSiteScripting.dll
+C:\Users\Lenovo-PC\source\repos\Presentation\CrossSiteRequest Forgery\CrossSiteScripting\obj\Debug\CrossSiteScripting.pdb

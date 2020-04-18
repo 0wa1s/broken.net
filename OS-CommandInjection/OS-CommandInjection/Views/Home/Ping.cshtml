@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Ping";
+}
+
+<h2>Ping</h2>
+
+
+<h2>Ping</h2>
+@using (Html.BeginForm("Exec",
+                        "Home",
+                        FormMethod.Post,
+                        new { enctype = "plain/text" }))
+{
+    <label for="ip">IP to ping:</label>
+    <input type="text" name="ip" id="ip" /><br><br>
+    <input type="submit" value="Submit" />
+    <br><br>
+
+}

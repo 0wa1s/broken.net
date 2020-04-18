@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUpload-PathTraversal", "FileUpload-PathTraversal\FileUpload-PathTraversal.csproj", "{7D39731D-0C46-4B14-82D6-F799307B1AE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D39731D-0C46-4B14-82D6-F799307B1AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D39731D-0C46-4B14-82D6-F799307B1AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D39731D-0C46-4B14-82D6-F799307B1AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D39731D-0C46-4B14-82D6-F799307B1AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F39CA48D-4011-4ACA-9699-25C0D4A35A9B}
+	EndGlobalSection
+EndGlobal
