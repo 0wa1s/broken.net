@@ -15,4 +15,6 @@ SQL-Injection
 <br>
 XXE	
 <br>
+Open Redirects
+<br>
 WebHeaders
