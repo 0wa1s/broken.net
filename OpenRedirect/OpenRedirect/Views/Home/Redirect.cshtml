@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Redirect Test Page";
+
+}
+
+
+<h2>Redirect</h2></br>
+
+Click on the link to get redirected page
+@Html.ActionLink("Redirect Me", "Redirect", new { Page = "/Home/Redirected", Controller = "Home" }, new { @Parameter = "value" })
+
