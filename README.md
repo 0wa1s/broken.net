@@ -15,6 +15,8 @@ SQL-Injection
 <br>
 XXE	
 <br>
+Server Side Template Injection
+<br>
 Open Redirects
 <br>
 WebHeaders
