@@ -1,0 +1,45 @@
+﻿@model Login.Models.SearchByID
+
+
+@{
+    ViewBag.Title = "View Secret";
+}
+
+<h2>View Secret</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <p>
+            Please enter Profile Id you would like to search:
+        </p>
+
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            <div class="col-md-4">
+                @Html.TextBoxFor(model => model.EmailId)
+                @Html.ValidationMessageFor(model => model.EmailId)
+            </div>
+            <div class="col-md-1">
+                <input type="submit" name="BtnSearch" value="Search" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+@{
+    if (Model.Details != null)
+    {
+        Html.RenderPartial("~/Views/ViewProfilePartial.cshtml", Model.Details);
+
+    }
+}
+
+
+@if (Session["EmailId"] == null)
+{
+    Response.Redirect("~/User/Login");
+
+}

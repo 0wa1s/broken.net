@@ -1,6 +1,9 @@
 # broken.net
 <strong>This is a crappy implementation of some web vulnerabilites that demonstrate poor coding practices</strong>
 <br>
+Insecure Direct Object Reference / Broken Access Control
+<br>
+<br>
 CrossSiteRequest Forgery
 <br>
 CrossSiteScripting
