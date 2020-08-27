@@ -88,6 +88,7 @@ namespace Login.Controllers
         public ActionResult Logout()
         {
             Session.Clear();
+	    Response.Cookies.Add(new HttpCookie("ASP.NET_SessionId", ""));
             return RedirectToAction("Login", "User");
         }
 

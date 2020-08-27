@@ -1,0 +1,33 @@
+﻿@model Login.Models.Details
+
+<div>
+    <hr />
+    <h2>Your Details</h2>
+
+    <h5>
+        @Html.DisplayNameFor(model => model.FirstName):
+        @Html.DisplayFor(model => model.FirstName)
+
+    </h5>
+    <h5>
+        @Html.DisplayNameFor(model => model.LastName)
+        @Html.DisplayFor(model => model.LastName)
+
+    </h5>
+
+    <h5>
+        @Html.DisplayNameFor(model => model.EmailID):
+        @Html.DisplayFor(model => model.EmailID)
+
+    </h5>
+
+    <h5>
+        @Html.DisplayNameFor(model => model.Secret)
+        @Html.DisplayFor(model => model.Secret)
+
+    </h5>
+
+
+
+</div>
+

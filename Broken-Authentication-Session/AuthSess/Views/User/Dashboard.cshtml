@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Dashboard";
+}
+
+<h2>Dashboard</h2>
+
+Welcome @Session["EmailId"];
+@if (Session["EmailId"] != null)
+{
+
+    using (Html.BeginForm("ViewProfile", "User", FormMethod.Get, new { id = "submit" }))
+    {
+        <a href="javascript:document.getElementById('submit').submit()">View Secret</a>
+    }
+
+
+}
+@if (Session["EmailId"] == null)
+{
+    Response.Redirect("~/User/Login");
+}
