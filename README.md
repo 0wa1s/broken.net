@@ -3,7 +3,6 @@
 <br>
 Insecure Direct Object Reference / Broken Access Control
 <br>
-<br>
 CrossSiteRequest Forgery
 <br>
 CrossSiteScripting
