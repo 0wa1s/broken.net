@@ -114,13 +114,11 @@ namespace Login.Controllers
             {
                 model.ErrorMessage = null;
                 model.Details = null;
-                //Fix for IDOR by checking if the requestor is providing it's own email id or not by comparing it with email id saved in sessions variable
-                /*
+                /*Fix for IDOR by checking if the requestor is providing it's own email id or not by comparing it with email id saved in sessions variable
                 if (Session["EmailId"].ToString() != model.EmailId.ToString())
                 {
                     return View("Error");
-                }
-                */
+                }                */
                 try
                 {
                     using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString))
@@ -128,14 +126,12 @@ namespace Login.Controllers
                         conn.Open();
                         SqlCommand cmd = new SqlCommand();
                         cmd.Connection = conn;
-
                         cmd.CommandText = @"SELECT FirstName, LastName, EmailID, Secret from Users " + "WHERE EmailId = @EmailId";
                         SqlParameter parm = new SqlParameter("@EmailId", SqlDbType.VarChar);
                         parm.Value = model.EmailId;
                         cmd.Parameters.Add(parm);
-
                         SqlDataReader reader = cmd.ExecuteReader();
-
+                  
                         if (reader.Read())
                         {
                             model.Details = new Details
@@ -144,7 +140,6 @@ namespace Login.Controllers
                                 LastName = reader.GetString(1),
                                 EmailID = reader.GetString(2),
                                 Secret = reader.GetString(3)
-
                             };
                         }
                         else
@@ -153,13 +148,10 @@ namespace Login.Controllers
                         }
                     }
                 }
-
                 catch (Exception e)
                 {
                     model.ErrorMessage = e.Message;
-                        
                 }
-
                 return View("ViewProfile", model);
             }
             return View("ViewProfile", model);
